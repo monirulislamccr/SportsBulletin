@@ -241,6 +241,18 @@ section{
     padding: 5px 20px;
 }
 
+.social-buttons {
+    text-align: center;
+}
+
+.social-link {
+    color: white;
+    padding: 20px;
+}
+.social-link i{
+    font-size: 25px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -469,6 +481,12 @@ section{
     }
     .match {
         padding: 10px;
+    }
+    .nav-conatiner{
+        flex-wrap: wrap;
+    }
+    .nav-conatiner li{
+        margin-bottom: 10px;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
